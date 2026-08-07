@@ -1,0 +1,29 @@
+# Ignore all files in repos folder but keep the folder
+repos/*
+!repos/.gitkeep
+
+# Ignore all files in implementation-plans folder but keep the folder
+implementation-plans/*
+!implementation-plans/.gitkeep
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
